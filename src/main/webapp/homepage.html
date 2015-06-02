@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+</head>
+<body onload="run();">
+<script type="text/javascript" src="resources/js/scripts.js"></script>
+<div class="header"><h1 align = center>Chat</h1></div>
+<div id="incoming_messages" class="scroll" >
+</div>
+<div id="outgoing_messages">
+    <table>
+        <tr>
+            <td>
+                <input type="text" class="message_box" id="message_area" placeholder="write something">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p align=right>
+                    <input type="button" value="ok" class ="hide" id="end_edit">
+                    <input type="button" value="sent" class="sent_button" onclick='sent()'>
+                </p>
+            </td>
+        </tr>
+    </table>
+</div>
+<div id="login">
+    <p>
+        <input type="text" id="name" placeholder="Name...">
+    </p>
+</div>
+<div id="users">
+    <input placeholder="Users here..." id="users_holder" readonly=true>
+</div>
+</body>
+</html>

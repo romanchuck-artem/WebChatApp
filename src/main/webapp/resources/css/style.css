@@ -1,0 +1,111 @@
+#incoming_messages
+{
+    background: white;
+    width: 800px;
+    height: 300px;
+    margin-left: 200px;
+    border: 1px solid;
+}
+
+#login
+{
+    width: 150px;
+    height: 100px;
+    position: relative;
+    bottom: 590px;
+    left: 1020px;
+}
+
+#outgoing_messages
+{
+
+    width: 800px;
+    height: 200px;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+#exit
+{
+    position: relative;
+    bottom: 600px;
+    height: 100px;
+    left: 1020px;
+    display: none;
+}
+
+#edit
+{
+    display: none;
+}
+
+#edit_ok
+{
+    display: none;
+}
+
+#users_holder
+{
+    width: 250px;
+    height: 350px;
+    position: relative;
+    bottom: 590px;
+    left: 1020px;
+}
+
+#footer
+{
+    position: fixed;
+    background: #333;
+    padding: 5px;
+    color: #fff;
+    clear: left;
+    right: 10px;
+    left: 10px;
+    bottom: 10px;
+}
+
+.scroll
+{
+    overflow: auto;
+}
+
+.message_box
+{
+    width: 800px;
+    height: 50px;
+}
+
+.sent_button
+{
+    width: 100px;
+}
+
+.message
+{
+    text-align: left;
+    padding-right: 10px;
+    color: black;
+    font-style: normal;
+    font-weight: normal;
+}
+
+body
+{
+    background: lightgrey;
+}
+
+.hide
+{
+    display: none;
+}
+.nick
+{
+    color: blue;
+    font-size: 25px;
+    text-align: left;
+}
+.buttons
+{
+    text-align: right;
+}
